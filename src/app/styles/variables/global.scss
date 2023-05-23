@@ -8,4 +8,9 @@
   --fontSizeL: 24px;
   --fontLineL: 32px;
   --fontL: var(--fontSizeL) / var(--fontLineL) var(--fontFamilyMain);
+
+  // Размеры
+  --navbarHeight: 50px;
+  --sidebarWidth: 300px;
+  --sidebarWidthCollapsed: 80px;
 }
