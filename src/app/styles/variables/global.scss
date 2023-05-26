@@ -1,10 +1,8 @@
 :root {
-  --fontFamilyMain: Consolas, "Times New Roman", serif;
-
+  --fontFamilyMain: consolas, "Times New Roman", serif;
   --fontSizeM: 16px;
   --fontLineM: 24px;
   --fontM: var(--fontSizeM) / var(--fontLineM) var(--fontFamilyMain);
-
   --fontSizeL: 24px;
   --fontLineL: 32px;
   --fontL: var(--fontSizeL) / var(--fontLineL) var(--fontFamilyMain);
