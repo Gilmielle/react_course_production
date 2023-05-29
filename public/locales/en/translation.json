@@ -1,8 +1,11 @@
 {
   "Toggle": "Toggle",
+  "Выкинуть ошибку": "Throw error",
   "Главная": "",
   "Загрузка": "Loading...",
   "О сайте": "",
+  "Обновить страницу": "Update page",
+  "Произошла непредвиденная ошибка": "Some error occurred",
   "Страница не найдена": "Page not found",
   "Тестовый перевод": "Test translation",
   "Язык": "English"
