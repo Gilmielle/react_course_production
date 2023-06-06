@@ -18,7 +18,7 @@ export function buildLoaders({ isDev }: BuildOptions): webpack.RuleSetRule[] {
         ],
     };
 
-    const cssLoader = buildCssLoader(isDev)
+    const cssLoader = buildCssLoader(isDev);
 
     const typescriptLoader = {
         test: /\.tsx?$/,
@@ -37,8 +37,8 @@ export function buildLoaders({ isDev }: BuildOptions): webpack.RuleSetRule[] {
                     [
                         'i18next-extract',
                         {
-                            locales: ['en', 'fr'],
-                            keyAsDefaultValue: false,
+                            locales: ['ru', 'en'],
+                            keyAsDefaultValue: true,
                             saveMissing: true,
                             outputPath: 'public/locales/{{locale}}/{{ns}}.json',
                         },
