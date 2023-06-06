@@ -5,7 +5,7 @@ import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDeco
 import { Theme } from 'app/providers/ThemeProvider';
 import { PageError } from 'widgets/PageError';
 
-const meta: Meta<typeof PageError> ={
+const meta: Meta<typeof PageError> = {
     title: 'widget/PageError',
     component: PageError,
 };
@@ -21,5 +21,4 @@ export const Dark: Story = {
     args: {},
 };
 
-
-Dark.decorators = [ ThemeDecorator(Theme.DARK) ]
+Dark.decorators = [ThemeDecorator(Theme.DARK)];

@@ -5,7 +5,7 @@ import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDeco
 import { Navbar } from 'widgets/Navbar';
 import { Theme } from 'app/providers/ThemeProvider';
 
-const meta: Meta<typeof Navbar> ={
+const meta: Meta<typeof Navbar> = {
     title: 'widget/Navbar',
     component: Navbar,
 };
@@ -21,5 +21,4 @@ export const Dark: Story = {
     args: {},
 };
 
-
-Dark.decorators = [ ThemeDecorator(Theme.DARK) ]
+Dark.decorators = [ThemeDecorator(Theme.DARK)];
